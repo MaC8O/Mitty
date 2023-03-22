@@ -1,0 +1,77 @@
+body{
+    margin-bottom: 20px;
+    padding-top: 5 rem;
+    margin-top: 20px;
+    padding: 1 rem;
+}
+
+.header-text{
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+    max-width: 60%;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Mali', sans-serif;
+}
+
+.logo{
+    /*margin: 0   ;*/
+    line-height: 1.5rem;
+    margin-bottom: 3%;
+    font-size: medium;
+    padding: 20px;
+    text-decoration: none;
+    text-indent: 2%;
+    text-size-adjust:3 rem;
+}
+
+.circle-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 55%;
+    display: inline-block;
+}
+
+/* .border {
+    border-style: solid;
+    border-image-width: 35px;
+    border-image-source: url(/photos/4.png);
+    border-image-slice: 100;
+    border-image-repeat: repeat ;
+
+} */
+
+
+body {
+    background-image: url(/photos/3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  #nav2 {
+    position: sticky;
+  }
+  

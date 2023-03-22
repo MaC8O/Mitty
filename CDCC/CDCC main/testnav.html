@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Double Navbar Example</title>
+	<!-- Add Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    
+   <style>
+     /*margin to the logo */
+.navbar-brand img {
+	margin-right: 10px;
+}
+
+/* Add some margin to the names */
+.navbar-nav .nav-link {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#navbarNav_1 {
+    margin-left: auto;
+}
+   </style>
+
+</head>
+<body>
+	<!-- First Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="logo.png ml-auto" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+			Logo
+		</a>
+		<div class="collapse navbar-collapse" id="navbarNav_1">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Second Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+		<div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+			<ul class="navbar-nav text-center">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+    <h>Hi</h>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga maiores exercitationem illum fugiat voluptatem quibusdam dolorum sint accusantium eaque eius nostrum maxime minus perferendis, adipisci ut id nulla neque aspernatur dolores sequi quos ab, reiciendis culpa. Totam quis fugiat ea rerum atque, pariatur, nesciunt nostrum neque beatae voluptas doloremque, dolorum ducimus ut asperiores. Tempora assumenda quibusdam excepturi recusandae beatae vel, odio ex. Quis quaerat tempora laboriosam. Qui quis odio commodi corrupti, neque totam fugit veritatis placeat quaerat adipisci. Id temporibus saepe sed architecto corrupti nam neque nesciunt commodi qui beatae! Repellendus ad minus dignissimos delectus quidem id, distinctio quo modi ullam ipsum fugiat quis voluptatem recusandae excepturi optio consequuntur officia accusantium! Quisquam possimus facere, ad labore autem vero eaque consequuntur? Eaque aliquam iure facilis ex! Eaque dicta accusamus excepturi provident eius aperiam ducimus iste, nemo ratione! Id nihil natus tempora? Odio itaque pariatur aut magnam ducimus cum iure distinctio voluptate.</p>
+
+	<!-- Add Bootstrap JS and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        // Toggle the collapse behavior of the first navbar
+$('.navbar-toggle-first').click(function() {
+	$('.navbar-collapse-first').collapse('toggle');
+});
+
+// Toggle the collapse behavior of the second navbar
+$('.navbar-toggle-second').click(function() {
+	$('.navbar-collapse-second').collapse('toggle');
+});
+
+    </script>
+</body>
+</html>

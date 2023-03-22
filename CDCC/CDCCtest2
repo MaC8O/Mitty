@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <meta name="Counseling" content="#712cf9" -- />
+    <title>Document</title>
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-md navbar-dark"
+      style="background-color: #18245e"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="cdcc.jpg" class="rounded" style="width: 40px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="me-auto">
+            <span class="h6 text-white py-3"
+              >Career Development and Counseling Center</span
+            >
+          </div>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="CDCC test 02.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Career Development
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Counselor.html">Counselor</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Resources.html">Resources</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Services.html">Services</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="MTCounselor.html"
+                    >Meet the Counselor</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="MakeAppointment.html"
+                    >Make Appointment</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Internship
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Information.html"
+                    >Information</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Companies.html">Companies</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="JFW.html"
+                    >Job Fair & Workshop</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="AOV.html"
+                    >Arrange Oncampus Visits</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--second navbar-->
+
+    <div class="container-fluid" style="margin-top: 66px">
+      <div class="nav-scroller py-1 mb-2">
+        <ul class="nav bg-light" id="nav2">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >Jobs for Alumani</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="JFA(information).html"
+                  >Information</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="Companies01.html">Companies</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="SSA.html"
+                  >Success Stories of Alumni</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="AlumniAssociation.html"
+                  >Alumni Association</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-expanded="false"
+              >News</a
+            >
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="Scholarship.html">Scholarship</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Recent News</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="Activities.html"
+                  >Agreements and MoU</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="Career_Fair.html">Career Fair</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="Wellness Week.html"
+                  >Wellness Week</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Counseling
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Resources</a></li>
+              <li><a class="dropdown-item" href="#">Counselor</a></li>
+              <li><a class="dropdown-item" href="#">Communication</a></li>
+              <li><a class="dropdown-item" href="#">Time Management</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Relationship</a></li>
+              <li><a class="dropdown-item" href="#">Heart Line Survey</a></li>
+              <li><a class="dropdown-item" href="#">Student Life</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Resources
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Student Portfolio</a></li>
+              <li><a class="dropdown-item" href="#">Interest Inventory</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="#">How to Make a Resume</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Interview & Cover Letter</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Blogs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <img src="Fm,Hayden.png" class="img-fluid mb-3" />
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="1.png"
+                    height="280"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-mode-block">
+                    <h4>Aiu Building</h4>
+                    <p>Presentation</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="2.png"
+                    height="280"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-mode-block">
+                    <h4>Hello</h4>
+                    <p>AIu Building</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="3.png"
+                    height="280"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-mode-block">
+                    <h4>Aiu</h4>
+                    <p>Hello World</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="col-md-8 p-3">
+            <h3>Welcome Note!</h3>
+            <br />
+            <p>
+              A counselor is one who actually plays a very vital role in our own
+              lives by actually showing us the right path and direction whenever
+              we actually find ourselves in confusion. <br />Also there you will
+              find that there are also different categories of counselors like
+              marriage counselors, addiction Counselors, career Counselors,
+              School counselors, and so on. Mentioned below are some thank you
+              messages for counselors as well as for appreciating their
+              counseling.
+            </p>
+            <h3>Vision</h3>
+            <p>
+              The vision of Career Development & Counseling Center (CDCC) is to
+              empower studnets to explore and pursue a path to a fulfilling
+              career so they can make a significant impact on the world.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Video-->
+      <div
+        class="container-fluid text-white p-3"
+        style="
+          font-family: 'Poppins', sans-serif;
+          background-color: wheat;
+          background: linear-gradient(
+            to right,
+            #293327,
+            rgb(62, 56, 56),
+            rgb(77, 18, 18)
+          );
+        "
+      >
+      <h3 class="text-center fw-bold">NEWS AND EVENTS</h3> <br>
+      <div class="container">
+        <ul>
+        <ul>
+          <p class="text-center">CV Writing. Cover Letter and Linkedin Profile Development Workshop-22 April 2023, 3:00px     (Bangkok-time)<br>
+          SEI, ACE and IUCN Virtual Career Talk: 7 April 2023,3 pm, Zoom meeting<br>
+          Essilor, Oozou, Schneider and Accenture Virtual Career Talk-30 March 2023, 2 pm, Zoom meeting<br>
+          Siam University, Pandora and Stonehenge Career Talk-22 March 2023, 2 pm. Zoom meeting<br>
+          Japn and Talentcis Career Talk- 20 April 2023, 9 am. AIU campus(Auditorium)<br>
+          Virtual Career Talk by My Internship Asia and Mitrphaol- 11 March 2023.<br>
+          Career Talk by Dr.Jun Amparo-11 Febuary 2023.
+
+          </p> 
+        </ul> 
+        </ul>  
+      </div>  
+    </div>
+    <br>
+  <div class="container">
+    <h2 class="text-center font-awesome">Video</h3>
+      <br>
+      <div class="d-flex justify-content-center">
+        <video class="w-50" controls="controls">
+          <source src="AIU.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block">Watch More...</button>
+      <!--div class="row g-3">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <div class="ratio ratio-16x9">
+            <video class="object-fit-contain" controls="controls">
+              <source src="IEL & NDR Song (AYM) SFS.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="ratio ratio-16x9">
+            <video class="object-fit-contain" controls="controls">
+              <source src="IEL & NDR Song (AYM) SFS.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="ratio ratio-16x9">
+            <video class="object-fit-contain" controls="controls">
+              <source src="IEL & NDR Song (AYM) SFS.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div-->
+      <div class="row mt-3">
+        <h3 class="text-center fw-bold">Mission Statement</h3>
+        <p2 class="text-center"
+          >Reconizing that career development is a life long process, the
+          mission of Career Development & Counseling Center (CDCC) is to guide
+          and support students as they explore and further understand
+          themselves,<br />
+          evalute career options, gain valuable experience, develop
+          post-graduation career plans, and achieve their full potentials.</p2
+        >
+      </div>
+      <div class="row mt-3">
+        <h3 class="text-center fw-bold">Long Term Goals</h3>
+        <p class="text-justify">
+          <li>
+            Build a strong collaboration among SDA institutuins by creation
+            goals and activities that are mutually beneficial to instiutions.
+          </li>
+          <li>
+            Provide information that enchanced student's interest and abilities
+            through career exploration.
+          </li>
+          <li>
+            Provide guidance and support through internship and employment
+            opportunities for students and alumni.
+          </li>
+          <li>
+            Provide updated and useful information related to scholarshops,
+            volunteer work or community services, etc.
+          </li>
+          <li>Establish network by seeking MoU and agreements.</li>
+          <li>Establish alumni network and build strong collaboration.</li>
+        </p>
+      </div>
+    </div>
+    
+    <div
+      class="container-fluid text-white p-3"
+      style="
+        font-family: 'Poppins', sans-serif;
+        background-color: navy;
+        background: linear-gradient(to right, #303078, #302b63, #372bac);
+      "
+    >
+      <div class="row justify-content-around text-center text-md-start">
+        <div class="col-md-2 text-center">
+          <h1 class="fw-bold mt-3"></h1>
+          <h4>The Providers</h4>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li class="fw-bold my-2">Partnership</li>
+            <li>
+              <a href="#" class="text-decoration-none text-white">Website</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                >Social Media</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"></a>Branding
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li class="fw-bold my-2">Our Services</li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                >Carrer Counseling <br />and Placement Assistance</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                >Student Assistanship</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                >Internship Placement</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                >Further Studies Exchange Programs and <br />
+                Dual Degree Programs Counseling</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                >Career Counseling Services</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li class="fw-bold my-2">Support</li>
+            <li>
+              <a href="#" class="text-decoration-none text-white">Contact</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                >Support Request</a
+              >
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-2">
+          <li class="fw-bold my-2 list-unstyled">Follow Us</li>
+          <ul
+            class="list-unstyled d-flex justify-content-center justify-content-md-start"
+          >
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                ><i class="fa-brands fa-facebook me-2 fa-1x"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                ><i class="fa-brands fa-youtube mx-2 fa-1x"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none text-white"
+                ><i class="fa-brands fa-instagram mx-2 fa-1x"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        
+        <hr />
+
+
+        <div class="row">
+          <div class="col-md-12 text-center pt-2">
+            <p>
+              &copy; 2023 Copyright <a href="#" class="text-white">Asia Pacific International University</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
